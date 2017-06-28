@@ -1,0 +1,14 @@
+
+						ABSTRACT
+
+
+
+1) Capture the traffic of the network using Wireshark Software and save it in the form of a text file.
+
+2) Extract the data from the trace file on the basis of the specified IP Address or Domian names.
+
+3) Display the Input-Output Graph depicting the number of packets sent and received per second.
+
+4) Display the Stastics of the Data of the Captured Trace File. 
+
+

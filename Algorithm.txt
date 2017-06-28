@@ -1,0 +1,52 @@
+
+							ALGORITHM
+
+
+
+1) Read the Trace File Name and display the contents.
+
+2) Available choices are -
+i) Search via IP Address 
+ii) Search via Domain Name 
+iii) Input Output Graph Plot 
+iv) Stastics of the Data in the Captured Trace File and Exit
+
+3) Read choice
+
+4) Choice 1:
+	  i) Enter the corresponding trace filename
+	 ii) Display the list of all IP Addresses available as source corresponding to the captured file
+	iii) Read the IP Address to display its corresponding details
+	 iv) If the IP Address entered does not match the available IP Address then read the IP Address again
+	  v) In order to extract the details , we feed the IP Address to awk (line by line interpreter)	  
+	 vi) The details corresponding to a particular IP Address include :
+		-Time at which the packet was sent or received
+		-Destination IP Address
+		-Protocols
+		-Length of Packet
+
+   Choice 2:
+	  i) Enter the corresponding trace filename
+	 ii) Display the list of domain names(Source or Destination) corresponding to the captured file
+	iii) Read the domain name(Source or Destination) to display its corresponding details
+	 iv) If the domain name(Source or Destination) entered does not match the available source domain names then read the 		     domain name again
+	  v) In order to extract the details , we feed the Domain Name(Source or Destination) to awk (line by line interpreter)
+	 vi) The details corresponding to a particular IP Address include :
+		-Time at which the packet was sent or received
+		-Destination IP Address/Source IP Address
+		-Protocols
+		-Length of Packet
+		-Information
+	vii) The number of packets corresponding to source domain names or destination domain names are displayed
+
+   Choice 3:
+	   i) Read the filename with the Graph
+	  ii) Display the Input Output Graph depicting the number of packets sent or received per second
+
+   Choice 4:
+	   i) Enter the filename
+	  ii) Display the statistics of data in trace file 
+	 iii) Exit
+
+
+

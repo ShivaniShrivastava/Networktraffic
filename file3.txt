@@ -1,0 +1,18 @@
+    126 3.113319       192.168.0.2           cse.google.com        TCP      74     59172 → http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=1716385 TSecr=0 WS=128 
+    133 3.122589       192.168.0.2           cse.google.com        TCP      54     59172 → http [ACK] Seq=1 Ack=1 Win=29312 Len=0                
+    141 3.157396       192.168.0.2           cse.google.com        HTTP     530    GET /cse.js?cx=009682134359037907028:tj6eafkv_be HTTP/1.1       cse.google.com
+    186 3.666957       192.168.0.2           cse.google.com        TCP      54     59172 → http [ACK] Seq=477 Ack=1361 Win=32128 Len=0           
+    188 3.669629       192.168.0.2           cse.google.com        TCP      54     59172 → http [ACK] Seq=477 Ack=1869 Win=34944 Len=0           
+    443 4.559636       192.168.0.2           cse.google.com        TCP      74     41482 → https [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=1716746 TSecr=0 WS=128 
+    445 4.565583       192.168.0.2           cse.google.com        TCP      54     41482 → https [ACK] Seq=1 Ack=1 Win=29312 Len=0               
+    446 4.565866       192.168.0.2           cse.google.com        TLSv1.2  256    Client Hello                                                    
+    474 4.930842       192.168.0.2           cse.google.com        TCP      54     41482 → https [ACK] Seq=203 Ack=1361 Win=32128 Len=0          
+    476 4.930869       192.168.0.2           cse.google.com        TCP      54     41482 → https [ACK] Seq=203 Ack=1431 Win=32128 Len=0          
+    478 4.932638       192.168.0.2           cse.google.com        TCP      54     41482 → https [ACK] Seq=203 Ack=2791 Win=35072 Len=0          
+    480 4.933823       192.168.0.2           cse.google.com        TCP      54     41482 → https [ACK] Seq=203 Ack=4018 Win=37760 Len=0          
+    481 4.939201       192.168.0.2           cse.google.com        TLSv1.2  180    Client Key Exchange, Change Cipher Spec, Hello Request, Hello Request 
+    482 4.939435       192.168.0.2           cse.google.com        TLSv1.2  211    Application Data                                                
+    486 4.963512       192.168.0.2           cse.google.com        TCP      66     [TCP Window Update] 41482 → https [ACK] Seq=486 Ack=4018 Win=40576 Len=0 SLE=4336 SRE=4416 
+    488 4.964305       192.168.0.2           cse.google.com        TCP      54     41482 → https [ACK] Seq=486 Ack=4416 Win=43264 Len=0          
+    489 4.964627       192.168.0.2           cse.google.com        TLSv1.2  92     Application Data                                                
+   1735 13.668008      192.168.0.2           cse.google.com        TCP      54     [TCP Keep-Alive] 59172 → http [ACK] Seq=476 Ack=1869 Win=34944 Len=0 
